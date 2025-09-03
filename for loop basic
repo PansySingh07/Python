@@ -1,0 +1,21 @@
+#  =========================== loop through list =============================
+fruits = ["apple", "banana", "cherry"]
+
+for fruit in fruits:
+    print(fruit)
+
+# ========================== loop through a range of numbers ================================
+for i in range(5):
+    print (i)
+
+#  ========================= start and end in range ==============================
+for i in range(2, 7):
+    print(i)
+
+# =========================== with step value ======================================
+for i in range (0, 10, 2):
+    print(i)
+
+#  ============================ loop through characters of a string ============================
+for ch in "hello":
+    print(ch)
