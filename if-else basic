@@ -1,0 +1,41 @@
+# ==================================== basic example==================================
+x = 2
+if x>5:
+    print("x is greater than 5")
+else:
+    print("x is smaller than 5")
+
+# ================================== if-elif-else ================================
+marks = 100
+if marks >= 90:
+    print("Grade A")
+elif marks >= 75:
+    print("Grade B")
+elif marks >= 50:
+    print("Grade C")
+else:
+    print("Fail")
+
+# ==============================Nested if==============================
+age = 20
+
+if age >= 76:
+    if age >= 60:
+        print("Senior Citizen")
+    else:
+        print("Adult")
+else:
+    print("Minor")
+
+# ======================= printing indexes using loop ============================
+fruitList = ("apple", "banana", "orange", "tomato")
+for fruit in fruitList:
+    print ("The fruit", fruit, "has index", fruitList.index(fruit))
+
+# ======================= square of numbers in range(10) ====================
+numbers = list(range(10))
+for num in numbers:
+    square = num**2
+    print(num, "square is", square)
+
+
