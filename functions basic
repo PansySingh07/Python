@@ -1,0 +1,35 @@
+#  ============================= simple function =========================
+def greet():
+    print("Hello! Welcome to Python")
+
+# calling the function
+greet()
+
+# ========================= function with parameters ==========================
+def add(a, b):
+    return a + b
+print(add(5, 3))
+
+# ======================= function with default parameter ====================
+def greet(name="User"):
+    print("Hello,", name)
+greet("Pansy")
+greet()
+
+# ======================= function returning multiple values =======================
+def math_ops(a, b):
+    return a + b, a - b, a * b
+add, sub, mul = math_ops(5, 3)
+print(add, sub, mul)
+
+# ========================= function calling another function =====================
+def square(x):
+    return x * x
+def cube(x):
+    return x * square(x)
+print(cube(3))
+
+
+
+
+
